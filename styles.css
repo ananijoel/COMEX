@@ -56,7 +56,9 @@ main {
 main h2 {
     color: #e74c3c;
 }
-
+li{
+    margin: 1rem 0;
+}
 .comex{
     width: 100%;
     height: 70vh;
@@ -91,12 +93,6 @@ footer {
 
 ul {
     list-style: disc;
-}
-
-.services{
-    width: 100vw;
-    max-height: 100vh;
-    padding: 10px;
 }
 img{
     width: 100%;
@@ -191,9 +187,23 @@ h2{
     }
 
     .service-technique,.membres ul{
-        height: max-content;
+        max-height: max-content;
         overflow: hidden;
         display: flex;
         flex-direction: column;
+    }
+    .comex h1{
+        font-size:2rem;
+        text-align: center;
+    }
+    .comex p{
+        font-size:1rem;
+        text-align: center;
+    }
+    .service-technique div {
+        height: max-content;
+    }
+    .service-technique img {
+        height: 40vh;
     }
 }
